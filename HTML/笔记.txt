@@ -1,0 +1,12 @@
+html特点：
+    1.不区分大小写
+    2.标签属性值单引号双引号均可
+    3.语法比较松散
+HTML结构标签：
+<html>
+    <head>
+        <title>标题</title>
+    </head>
+    <body>
+    </body>
+</html>
