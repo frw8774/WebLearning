@@ -1,0 +1,53 @@
+<!--文档类型为HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标题嘛，随便说点啥</title>
+    <!-- 方式二: 内嵌样式 -->
+    <style>
+        h1 {
+            color: red;
+        }
+        /* 元素选择器 */
+        /*span {
+            color: darkgrey;
+        }*/
+        /* 类选择器 */
+        /*.cls {
+            color: wheat;
+        }*/
+        /* ID选择器 */
+        #time {
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+        }
+        #一句话 {
+            color: blue;
+            font-size: 25px;
+        }
+        #图片旁的解释 {
+            color: yellowgreen;
+            font-size: 25px;
+        }
+        #click {
+            color: purple;
+            text-decoration: none; /* 设置文本为标准文本 */
+        }
+    </style>
+    <!--方式三: 外联样式-->
+    <!--    <link rel="stylesheet" href="CSS/new.css">-->
+</head>
+<body>
+<!-- 方式一: 行内样式 -->
+<!--<h1 style="color: red">标题，但是不知道该说啥</h1>-->
+<h1>标题，但是不知道该说啥</h1>
+<hr>
+<a href="https://www.bilibili.com/video/BV1m84y1w7Tb?spm_id_from=333.788.player.switch&vd_source=357c421e207bbefdd72ac1ace45e9551&p=9" target="_self"><img src="picture.jpg" height="25%" width="25%"></a>  <span id="图片旁的解释">-> 随便找的一个图片，因为电脑图片少就用它了T-T，点击图片有惊喜喔</span>
+<a href="https://www.nwafu.edu.cn/" target="_blank"><img src="https://www.nwafu.edu.cn/images/2026-01/c06f16addde74283a19bed01143c7355.jpg" height="500px"></a>  <span id="一句话">-> 从学校官网找的图片，应该不算侵权吧</span>
+<hr>
+<span class=".cls" id="time">目前是2026年1月21号23点59分，今天刚到家</span>
+<hr>
+<a href="https://beeg.com/" target="_blank" id="click"> <span>点击一下</span> </a>
+</body>
+</html>
